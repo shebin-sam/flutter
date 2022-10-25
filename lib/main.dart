@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
-void main(){
+void main() {
   runApp(MyApp());
-
 }
 
 class MyApp extends StatelessWidget {
@@ -12,13 +11,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Material(
-        child:Center(
+        child: Center(
           child: Container(
             child: Text("Hello World"),
-            ),
+          ),
         ),
       ),
-
     );
   }
 }
